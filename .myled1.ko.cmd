@@ -1,0 +1,1 @@
+cmd_/home/ubuntu/raspi_led_device_driver/myled1.ko := ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/ubuntu/raspi_led_device_driver/myled1.ko /home/ubuntu/raspi_led_device_driver/myled1.o /home/ubuntu/raspi_led_device_driver/myled1.mod.o
